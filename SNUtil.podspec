@@ -142,4 +142,9 @@ Pod::Spec.new do |s|
     # ss.dependency 'MGJRouter', '~> 0.9.3'
   end
 
+  s.subspec 'WKWebViewPost' do |ss|
+     ss.source_files =  "WKWebViewPost/WKWebViewPost", "WKWebViewPost/WKWebViewPost/**/*.{h,m}"  #ss.source_files =  "SNSpec/MGJRouter_Nav", "SNSpec/MGJRouter_Nav/**/*.{h,m}"
+    # ss.dependency 'MGJRouter', '~> 0.9.3'
+  end
+
 end
