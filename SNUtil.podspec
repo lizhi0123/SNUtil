@@ -147,6 +147,7 @@ Pod::Spec.new do |s|
   s.subspec 'WKWebViewPost' do |ss|
      ss.source_files =  "WKWebViewPost/WKWebViewPost", "WKWebViewPost/WKWebViewPost/**/*.{h,m}"  #ss.source_files =  "SNSpec/MGJRouter_Nav", "SNSpec/MGJRouter_Nav/**/*.{h,m}"
     # ss.dependency 'MGJRouter', '~> 0.9.3'
+    ss.libraries = "WebKit"
   end
 
 end
