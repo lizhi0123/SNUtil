@@ -81,7 +81,9 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/lizhi0123/SNUtil.git", :tag => "#{s.version}" }
+  # s.source       = { :git => "https://github.com/lizhi0123/SNUtil.git", :tag => "#{s.version}" }
+  #  s.source       = { :git => "https://github.com/lizhi0123/SNSubspecTest.git", :commit => "eaf9c02" }
+  s.source       = { :git => "https://github.com/lizhi0123/SNUtil.git", :branch => "master" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -137,8 +139,8 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
 
 
-  s.subspec 'NSDictionaryArray_utf8' do |ss|
-     ss.source_files =  "NSDictionaryArray_utf8/NSDictionaryArray_utf8", "NSDictionaryArray_utf8/NSDictionaryArray_utf8/**/*.{h,m}"  #ss.source_files =  "SNSpec/MGJRouter_Nav", "SNSpec/MGJRouter_Nav/**/*.{h,m}"
+  s.subspec 'NSDictionaryArrayUtf8' do |ss|
+     ss.source_files =  "NSDictionaryArrayUtf8/NSDictionaryArrayUtf8", "NSDictionaryArrayUtf8/NSDictionaryArrayUtf8/**/*.{h,m}"  #ss.source_files =  "SNSpec/MGJRouter_Nav", "SNSpec/MGJRouter_Nav/**/*.{h,m}"
     # ss.dependency 'MGJRouter', '~> 0.9.3'
   end
 
