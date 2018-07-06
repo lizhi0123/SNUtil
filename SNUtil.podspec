@@ -138,7 +138,7 @@ Pod::Spec.new do |s|
 
 
   s.subspec 'NSDictionaryArray_utf8' do |ss|
-     ss.source_files =  "NSDictionaryArray_utf8", "NSDictionaryArray_utf8/**/*.{h,m}"  #ss.source_files =  "SNSpec/MGJRouter_Nav", "SNSpec/MGJRouter_Nav/**/*.{h,m}"
+     ss.source_files =  "NSDictionaryArray_utf8/NSDictionaryArray_utf8", "NSDictionaryArray_utf8/NSDictionaryArray_utf8/**/*.{h,m}"  #ss.source_files =  "SNSpec/MGJRouter_Nav", "SNSpec/MGJRouter_Nav/**/*.{h,m}"
     # ss.dependency 'MGJRouter', '~> 0.9.3'
   end
 
