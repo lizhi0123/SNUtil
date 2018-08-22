@@ -24,7 +24,7 @@ ios 工具集合类
 
 ##### 4.UIView+Border  uiview 可以在xib里设置边框border
 
->>> IBInspectable
+> IBInspectable
 
 ##### 5.
 
