@@ -8,7 +8,7 @@ ios 工具集合类
 #####  2. WKWebViewPost
 >  WKWebViewPost WKWebView 支持 Post 操作。 实现方式：先插入js ,然后在js 里显示 post 请求。
 
-#### 3. UITableView 圆角显示
+#### 3. TableViewCorner ----- UITableView 圆角显示
 
 使用方法:
 ```
